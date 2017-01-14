@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <EditText 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addnote_title"
+        android:hint="@string/title"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/addnote_content"
+        android:inputType="textMultiLine"
+        android:hint="@string/content"
+        android:gravity="top"
+        />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/navigation"
+        android:background="#f0f0f0"
+        android:text="@string/photos"
+        android:id="@+id/btnPhotos"
+        />
+    
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/navigation"
+        android:background="#f0f0f0"
+        android:text="@string/alarms"
+        android:id="@+id/btnAlarms"
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/navigation"
+        android:background="#f0f0f0"
+        android:text="@string/videos"
+        android:id="@+id/btnVideos"
+        />
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/toolbar"
+        >
+        <Button
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/camera"
+            android:text="@string/take_photo"
+            android:id="@+id/btnTakephoto"
+            />
+        <Button
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/save"
+            android:text="@string/save_note"
+            android:id="@+id/btnSavenote"
+            />
+        <Button
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/alarm"
+            android:text="@string/set_alarm"
+            android:id="@+id/btnSetalarm"
+            />
+        <Button
+            style="@style/tab_menu_item"
+            android:drawableTop="@drawable/video"
+            android:text="@string/record_video"
+            android:id="@+id/btnRecordvideo"
+            />
+    </LinearLayout>
+</LinearLayout>

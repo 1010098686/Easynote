@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+    
+    <ImageView 
+        android:id="@+id/notepic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/app_name"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        />
+
+    <TextView 
+        android:id="@+id/notetitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        />
+    
+    <TextView 
+        android:id="@+id/notedate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textColor="@android:color/darker_gray"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+		/>"
+</LinearLayout>

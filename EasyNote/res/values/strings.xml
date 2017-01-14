@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EasyNote</string>
+    <string name="addnote">Add Note</string>
+    <string name="title">title</string>
+    <string name="content">content</string>
+    <string name="take_photo">photo</string>
+    <string name="save_note">save</string>
+    <string name="set_alarm">alarm</string>
+    <string name="photos">photos</string>
+    <string name="delete">delete</string>
+    <string name="alarms">alarms</string>
+    <string name="alarm_on">on</string>
+    <string name="alarm_off">off</string>
+    <string name="edit">edit</string>
+    <string name="record_video">video</string>
+    <string name="videos">videos</string>
+    <string name="ok">ok</string>
+
+</resources>
